@@ -1,8 +1,7 @@
 body{
-    background: url(../images/img7.jpeg)no-repeat center fixed;
+    background: url(../images/img6.jpg)no-repeat center fixed;
 }
 .tableau{
-    position: relative;
     border-collapse: collapse;
     min-width: 400px;
     width: auto;
@@ -10,15 +9,14 @@ body{
     cursor: pointer;
     margin: 100px auto;
     border: 2px solid #DCBB9D;
-    bottom: 30px;
-
+    background: white;
 }
 
 thead tr {
     background-color: #DCBB9D;
     color: white;
     text-align: left;
-    font-size: 30px;
+    font-size: 25px;
 }
 th, td {
     padding: 10px 50px 60px ;
@@ -28,10 +26,5 @@ tbody tr, td, th {
     border: 1px solid #DCBB9D;
 }
 td{
-    background: white ;
-    opacity: 0.5;
-    color: black;
-}
-h1{
-    opacity: 1;
+    font-size: 25px;
 }
