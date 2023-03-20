@@ -1,17 +1,20 @@
-body{
-    background: url(../images/img7.jpeg)no-repeat center fixed;
-}
 .tableau{
     position: relative;
     border-collapse: collapse;
     min-width: 400px;
     width: auto;
-    box-shadow: 0 0 5px 50px rgb(0, 0, 0, 0.15);
+    box-shadow: 0 0 5px 50px #f0f6e7;
     cursor: pointer;
     margin: 100px auto;
     border: 2px solid #DCBB9D;
-    bottom: 30px;
+    top: 50px;
 
+}
+.rouge{
+    color: red;
+}
+.vert{
+    color: green;
 }
 
 thead tr {
@@ -29,6 +32,13 @@ tbody tr, td, th {
 }
 td{
     background: white ;
-    opacity: 0.5;
     color: black;
+}
+img{
+    width: 70%;
+    height: 60px;
+   
+}
+.img_rouge{
+    opacity: 0.4;
 }
