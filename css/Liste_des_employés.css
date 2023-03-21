@@ -30,5 +30,6 @@ tbody tr, td, th {
 td{
     background: white ;
     opacity: 0.5;
+    font: trans;
     color: black;
 }
