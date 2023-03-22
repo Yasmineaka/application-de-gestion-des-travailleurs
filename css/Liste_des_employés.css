@@ -1,5 +1,5 @@
 body{
-    background: url(../images/img7.jpeg)no-repeat center fixed;
+    background: url(../images/img7.jpeg)no-repeat center fixed ;
 }
 .tableau{
     position: relative;
@@ -29,7 +29,6 @@ tbody tr, td, th {
 }
 td{
     background: white ;
-    opacity: 0.5;
     font: trans;
     color: black;
 }
